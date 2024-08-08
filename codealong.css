@@ -1,0 +1,168 @@
+body{
+height: 100vh; 
+margin: 0;
+}
+
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 30px;
+    flex-wrap: wrap;
+     align-items: center;
+}
+.logoa{
+    display: flex;
+    gap: 30px;
+   
+}
+a{
+    text-decoration: none;
+    color: black;
+}
+.btn{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.btn-1{
+    background-color: transparent;
+    border: 1px solid lightgray;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;   
+}
+.right-body{
+    margin-left: 140px;
+}
+h1{
+    font-size:50px; 
+    width: 280px; 
+    margin-bottom: 30px;
+}
+p{
+    width: 320px; 
+    margin-bottom: 30px; 
+}
+.btn-2{
+    display: flex;
+    align-items: center;
+    background-color: black;  
+    color: white;
+    height: 30px;
+    width: 80px;
+    border-radius: 10px;   
+    margin-bottom: 30px;
+}
+.hero2{
+    display: flex;
+    gap: 20px;
+    width: 20px;
+    height: 20px;
+}
+.heropic{
+    width: 240px;
+    float: right;
+    margin-top:-320px;
+    margin-right: 100px;
+}
+.icon-menu{
+    display: none;
+}
+.hero3{
+    display:none;
+}
+
+
+@media (max-width: 800px) {
+    body{
+        margin: 0px;
+    }
+    a{
+        display: none;
+    }
+    .links{
+        display: none;
+    }
+    .icon-menu{
+        display: block;
+        margin-right: 350px; 
+    }
+    .btn{
+        display: none;
+    }
+    .hero3{
+        display: block;
+        width: 100px;
+    }
+    .heropic{
+        display: none;
+        margin-right: 0px;
+    }
+    .right-body{
+        width: 100%;
+        margin-left: 50px;
+        img{
+            width: 70px;
+        }
+    }
+    h1{
+        font-size: 30px;
+    }
+
+}
+
+
+
+
+
+
+
+   
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .navagation{
+        display: none;
+    }
+    .loginBtn{
+        display: none;
+    }
+    .iconMenu{
+        display: block;
+    }
+}
